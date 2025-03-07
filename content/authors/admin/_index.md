@@ -129,7 +129,6 @@ awards:
     icon: kaggle
     summary: |
       Identify and forecast the non‑stationary structure of cryptocurrency markets by XGBoost, LSTM and High‑dimensional Model (PhD Thesis).
-
 ---
 
 I am currently model validator at PNC Bank where I am leading teams on model validation.
