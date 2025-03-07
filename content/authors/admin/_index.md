@@ -121,14 +121,14 @@ languages:
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Silver Medal: G‑Research Crypto Forecasting
-    url: https://www.kaggle.com/choirdan
-    date: '2022-05-03'
-    awarder: Kaggle
-    icon: kaggle
-    summary: |2-
-      Identify and forecast the non‑stationary structure of cryptocurrency markets by XGBoost, LSTM and High‑dimensional Model (PhD Thesis).
+# awards:
+#   - title: Silver Medal: G‑Research Crypto Forecasting
+#     url: https://www.kaggle.com/choirdan
+#     date: '2022-05-03'
+#     awarder: Kaggle
+#     icon: kaggle
+#     summary: |2-
+#       Identify and forecast the non‑stationary structure of cryptocurrency markets by XGBoost, LSTM and High‑dimensional Model (PhD Thesis).
 ---
 
 I am currently model validator at PNC Bank where I am leading teams on model validation.
