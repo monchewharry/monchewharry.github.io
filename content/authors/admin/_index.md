@@ -126,7 +126,7 @@ awards:
     url: https://www.kaggle.com/choirdan
     date: '2022-05-03'
     awarder: Kaggle
-    icon: kaggle
+    icon: brands/kaggle
     summary: |
       Identify and forecast the non‑stationary structure of cryptocurrency markets by XGBoost, LSTM and High‑dimensional Model (PhD Thesis).
 ---
