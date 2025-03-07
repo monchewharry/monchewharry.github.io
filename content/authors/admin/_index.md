@@ -35,9 +35,7 @@ profiles:
   - icon: brands/github
     url: https://github.com/monchewharry/
   - icon: brands/linkedin
-    url: https://www.linkedin.com/dingxian-cao-7114a4101/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.linkedin.com/in/dingxian-cao-7114a4101
 
 education:
   - area: PhD Economics
