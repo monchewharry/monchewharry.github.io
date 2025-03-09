@@ -116,16 +116,12 @@ languages:
   - name: Chinese
     percent: 100
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: G‑Research Crypto Forecasting
     url: https://www.kaggle.com/choirdan
     date: '2022-05-03'
     awarder: Kaggle
-    icon: brands/kaggle
+    icon: custom/kaggle-brands
     summary: |
       Identify and forecast the non‑stationary structure of cryptocurrency markets by XGBoost, LSTM and High‑dimensional Model (PhD Thesis).
 ---
