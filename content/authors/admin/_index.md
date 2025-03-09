@@ -73,7 +73,8 @@ work:
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Validated and assessed quantitative models in Credit Risk, Wealth Management, Market Risk, and Operational Risk, ensuring adherence to regulatory standards and accuracy.
+      - Analyzed and evaluated risks and potential use cases for the adoption of Generative AI tools within the bank's operational framework.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
