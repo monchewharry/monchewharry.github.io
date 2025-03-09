@@ -61,9 +61,6 @@ education:
     date_end: 2016-12-31
     summary: |
       GPA: 3.5/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
   - position: Model Validator
     company_name: PNC Bank
