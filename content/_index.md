@@ -6,6 +6,7 @@ design:
   spacing: "0rem"
 sections:
   - block: biography
+  - block: biography
     content:
       username: admin
       button:
