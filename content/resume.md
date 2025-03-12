@@ -14,6 +14,9 @@ sections:
   - block: biography
     content:
       username: admin
+      button:
+        text: Download Résumé
+        url: /uploads/resumeEN.pdf
     design:
       banner:
         # Upload your cover image to the `assets/media/` folder and reference it here
@@ -24,9 +27,6 @@ sections:
   - block: experience
     content:
       username: admin
-      button:
-        text: Download Résumé
-        url: /uploads/resumeEN.pdf
     design:
       # Hugo date format
       date_format: 'January 2006'
