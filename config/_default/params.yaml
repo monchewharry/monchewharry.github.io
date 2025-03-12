@@ -7,6 +7,10 @@
 appearance:
   mode: system
   color: blue
+  font_size: L
+  font: minimal
+  theme_day: minimal
+  theme_night: minimal
 
 # SEO
 marketing:
