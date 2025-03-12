@@ -5,26 +5,36 @@ design:
   # Default section spacing
   spacing: "0rem"
 sections:
-  - block: biography
+  - block: hero
     content:
-      username: admin
-      button:
-        text: Download Résumé
-        url: /uploads/resumeEN.pdf
-    design:
-      banner:
-        # Upload your cover image to the `assets/media/` folder and reference it here
-        filename: shanghai_1.jpg
-      biography:
-        # Customize the style of your biography text
-        style: 'text-align: justify; font-size: 0.8em;'
-  - block: collection
-    content:
-      title: "Recent Posts"
-      filters:
-        folders:
-          - blogs
+      title: 👋 Hello
+      text: Welcome to my page!
+      image:
+        # Reference an image in your `assets/media/` folder
+        filename: avatar.jpg
+      primary_action:
+        text: Résumé
+        url: /resume
+        icon: rocket-launch
+      secondary_action:
+        text: Posts
+        url: /blogs
+      # announcement:
+      #   text: "Announcing the release of version 1."
+      #   link:
+      #     text: "Read more"
+      #     url: "/blog/"
     design:
       spacing:
-        padding: ['3rem', 0, '6rem', 0]
+        padding: [0, 0, 0, 0]
+        margin: [0, 0, 0, 0]
+      # For full-screen, add `min-h-screen` below
+      css_class: "dark min-h-screen"
+      background:
+        color: "navy"
+        image:
+          # Add your image background to `assets/media/`.
+          filename: shanghai_1.jpg
+          filters:
+            brightness: 0.5
 ---
