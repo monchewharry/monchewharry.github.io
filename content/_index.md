@@ -18,4 +18,13 @@ sections:
       biography:
         # Customize the style of your biography text
         style: 'text-align: justify; font-size: 0.8em;'
+  - block: collection
+    content:
+      title: "Recent Posts"
+      filters:
+        folders:
+          - blogs
+    design:
+      spacing:
+        padding: ['3rem', 0, '6rem', 0]
 ---

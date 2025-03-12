@@ -2,21 +2,32 @@
 
 - 👉 [**Get Started**](https://hugoblox.com/templates/)
 - 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox Builder community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 🐦 Share your new site with the community: [@GetResearchDev](https://twitter.com/GetResearchDev) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithHugoBlox](https://twitter.com/search?q=%23MadeWithHugoBlox&src=typed_query)
-- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
-- 🚀 [Contribute improvements](https://github.com/HugoBlox/hugo-blox-builder/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
 
-## We ask you, humbly, to support this open source movement
 
-Today we ask you to defend the open source independence of the Hugo Blox Builder and themes 🐧
+## Folder Structure
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+- content/ for your Markdown-formatted content files (homepage, etc.)
+  - _index.md the homepage (Hugo requires that the homepage and archive pages have an underscore prefix)
+- assets/
+  - media/ for your media files (images, videos)
+    - icons/custom/ upload any custom SVG icons you want to use
+- config/_default/ for your site configuration files
+  - hugo.yaml to configure Hugo (site title, URL, Hugo options, setup per-folder page features)
+  - module.yaml to install or uninstall Hugo themes and plugins
+  - params.yaml to configure Hugo Blox options (SEO, analytics, site features)
+  - menus.yaml to configure your menu links (if the menu is enabled in params.yaml)
+  - languages.yaml to configure your site’s language or to set language-specific options in a multilingual site
 
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+- static/uploads/ for any files you want visitors to download, such as a PDF of your resume
+- hugo-blox/blox/community/ install custom or community blox here
+- go.mod sets the version of Hugo themes/plugins which your site uses - learn how to update
 
-## Demo credits
+## Name Convention
 
-- [Unsplash](https://unsplash.com/) images
+Hugo gives us two options to name standard page files: as `TITLE/index.md` or `TITLE.md` where `TITLE` is your page name.
+
+The page name should be lowercase and using hyphens (-) instead of spaces.
+
+Both approaches result in the same output, so you can choose your preferred approach to naming and organizing files. A benefit to the folder-based approach is that all your page’s files (such as images) are self-contained within the page’s folder, so it’s more portable if you wish to share the original Markdown page with someone.
+
+Hugo requires the homepage and listing pages to be named `_index.md`.
