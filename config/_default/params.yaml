@@ -6,11 +6,12 @@
 # Appearance
 appearance:
   mode: system
-  color: blue
+  color: minimal
   font_size: L
   font: minimal
   theme_day: minimal
   theme_night: minimal
+  background: minimal
 
 # SEO
 marketing:

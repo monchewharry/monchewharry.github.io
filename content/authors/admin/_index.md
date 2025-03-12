@@ -11,7 +11,7 @@ last_name: Cao
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 👨‍💻
 
 # Is this the primary user of the site?
 superuser: true
@@ -30,12 +30,12 @@ profiles:
   - icon: at-symbol
     url: 'mailto:davis.cao.public@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/
   - icon: brands/github
     url: https://github.com/monchewharry/
+    label: Check out my projects
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/dingxian-cao-7114a4101
+    label: Connect with me
 
 education:
   - area: PhD Economics

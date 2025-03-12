@@ -4,53 +4,42 @@ date: 2025-03-12
 type: landing
 
 design:
-  # No spacing between sections
   spacing: "0"
 
 sections:
-  - block: hero
+  - block: biography
     content:
-      title: "👋 Hey, I'm Davis"
+      username: admin
       text: |
+        👋 Hey, I'm Davis
+
         I am currently a Model Validator at PNC Bank where I lead teams on model validation.
 
-        My expertise includes:
-        * Validating quantitative models in Credit Risk, Wealth Management, and Market Risk
-        * Analyzing AI adoption in banking operations
-        * Statistical modeling and analysis
-
-        I hold a PhD in Economics from University of Connecticut, where my thesis focused on _Uniform Analysis of Dynamic Panel through Local‑to‑Unity_.
-
-      button:
-        text: Download Résumé
-        url: /uploads/resumeEN.pdf
-
-      social:
-        - icon: at-symbol
-          link: 'mailto:davis.cao.public@gmail.com'
-        - icon: brands/github
-          link: 'https://github.com/monchewharry/'
-        - icon: brands/linkedin
-          link: 'https://www.linkedin.com/in/dingxian-cao-7114a4101'
+        My research interests include:
+        * Statistical Modeling & Analysis
+        * Credit Risk Assessment
+        * AI in Banking Operations
     design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
+      background:
+        color: '#ffffff'
       columns: '2'
-      # Add custom styles
+      spacing:
+        padding: ["4rem", "0", "0", "0"]
       css_style: |
-        .hero-title {
-          font-size: 2.5rem;
-          font-weight: bold;
-          margin-bottom: 1.5rem;
+        .avatar-wrapper {
+          padding: 2rem;
         }
-        .hero-text {
-          font-size: 1.1rem;
+        .avatar {
+          width: 100%;
+          height: auto;
+          border-radius: 15px;
+          box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .biography-text {
+          font-size: 1.2rem;
           line-height: 1.6;
         }
         .social-icons {
           margin-top: 2rem;
-        }
-        .avatar {
-          border-radius: 15px;
-          box-shadow: 0 0 20px rgba(0,0,0,0.1);
         }
 ---
