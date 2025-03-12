@@ -24,6 +24,9 @@ sections:
   - block: experience
     content:
       username: admin
+      button:
+        text: Download Résumé
+        url: /uploads/resumeEN.pdf
     design:
       # Hugo date format
       date_format: 'January 2006'
