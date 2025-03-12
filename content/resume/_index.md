@@ -1,7 +1,6 @@
 ---
-title: 'Home'
+title: "Resume"
 date: 2025-03-12
-type: landing
 
 design:
   # Default section spacing
