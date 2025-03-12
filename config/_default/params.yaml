@@ -15,7 +15,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'Davis Cao personal résumé website.'
+    description: 'Davis Cao personal portfolio website.'
     twitter: ''
   analytics:
     google_analytics: ''
@@ -31,8 +31,14 @@ marketing:
 header:
   navbar:
     enable: true
+    blox: "navbar"
+    align: "center"
+    fixed_to_top: true
     show_search: true
-    # blox: floating-theme-toggler
+    show_theme_chooser: true
+    logo:
+      text: ""
+      filename: "icon.png"
 
 # Site footer
 footer:
