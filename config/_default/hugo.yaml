@@ -7,7 +7,7 @@ title: Résumé Davis # Website name
 baseURL: 'https://example.com/' # Website URL
 
 ############################
-## PAGE OPTIONS
+## PAGE OPTIONS https://docs.hugoblox.com/reference/page-features/
 ############################
 
 cascade:
@@ -16,12 +16,13 @@ cascade:
       path: /blogs/**
       kind: page
     pager: true
-    editable: true
+    editable: false
     hide_date: false
     show_date_updated: false
     reading_time: true
-    commentable: true
+    commentable: false
     show_related: true
+    profile: false
     share: true
     # Just use Breadcrumb for navigation on blog post pages?
     show_breadcrumb: false
@@ -33,7 +34,7 @@ cascade:
       path: /blogs/*
       kind: section
     # Set the listing view
-    view: date-title-summary
+    view: card
 
 ############################
 ## LANGUAGE

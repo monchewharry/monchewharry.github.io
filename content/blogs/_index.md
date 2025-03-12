@@ -3,7 +3,7 @@ title: ""
 type: landing
 
 sections:
-  - block: collection
+  - block: collection # https://docs.hugoblox.com/getting-started/page-builder/#listing-view
     id: posts
     content:
     #   title: Recent Posts
@@ -32,7 +32,7 @@ sections:
       sort_ascending: false
     design:
       # Choose a listing view
-      view: compact
+      view: card
       # Choose single or dual column layout
       columns: '1'
 ---
