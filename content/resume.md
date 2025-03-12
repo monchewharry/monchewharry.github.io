@@ -2,7 +2,8 @@
 title: 'Resume'
 date: 2025-03-12
 type: landing
-
+tags:
+  - resume
 design:
   # Default section spacing
   spacing: "4rem"
