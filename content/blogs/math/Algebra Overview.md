@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 authors:
   - admin
 title: Algebra Overview
@@ -23,7 +23,7 @@ Algebra is about building abstract structures from sets and operations. It moves
 1.  Sets and Operations[^1]
     * Foundation: Sets (collections of objects) and binary operations (combining two objects).
     * Examples: Integers, real numbers, functions, matrices.
-    * ==LLM Relevance:== Sets are used to represent vocabularies and token sets. Operations like union and intersection are used in data preprocessing and feature engineering.
+    * <mark>LLM Relevance:</mark> Sets are used to represent vocabularies and token sets. Operations like union and intersection are used in data preprocessing and feature engineering.
 
 2.  Algebraic Structures[^2]
     * Groups: Sets with a single operation (associative, identity, inverse).
@@ -32,7 +32,7 @@ Algebra is about building abstract structures from sets and operations. It moves
         * Examples: Integers, polynomials.
     * Fields: Rings where every non-zero element has a multiplicative inverse.
         * Examples: Rational numbers, real numbers, complex numbers.
-    * ==LLM Relevance:== Understanding these structures provides a foundation for more complex mathematical models used in LLMs, such as those involving group theory for symmetry detection.
+    * <mark>LLM Relevance:</mark> Understanding these structures provides a foundation for more complex mathematical models used in LLMs, such as those involving group theory for symmetry detection.
 
 3.  **Linear Algebra (focusing on linear structures[^3]):**
     * Vectors: Objects that can be added and scaled.
@@ -41,7 +41,7 @@ Algebra is about building abstract structures from sets and operations. It moves
     * **Linear Transformations:** Functions between vector spaces that preserve linear structure.
     * **Matrices:** Representations of linear transformations.
     * **Eigenvalues and Eigenvectors:** Special vectors and scalars related to linear transformations.
-    * ==LLM Relevance:== Linear algebra is the backbone of LLMs. Vectors represent words, embeddings, and hidden states. Matrices represent weight matrices in neural networks. Linear transformations model the operations of neural network layers. Eigenvalues and eigenvectors help analyze the stability and properties of these transformations.
+    * <mark>LLM Relevance:</mark> Linear algebra is the backbone of LLMs. Vectors represent words, embeddings, and hidden states. Matrices represent weight matrices in neural networks. Linear transformations model the operations of neural network layers. Eigenvalues and eigenvectors help analyze the stability and properties of these transformations.
 
 4.  **Metric Spaces (adding distance):**
     * [[Metrics]] A function defining a distance between elements of a set.
@@ -50,25 +50,27 @@ Algebra is about building abstract structures from sets and operations. It moves
     * This blends algebra with  analysis (Analysis Overview ).
     * [[normed linear space]] Vector spaces with a norm (a way to measure the "length" of a vector). Norms induce metrics.
     * **Inner Product Spaces:** Vector spaces with an inner product (a way to measure the "angle" between vectors). Inner products induce norms.
-    * ==LLM Relevance:== Metric spaces are crucial for measuring distances between word embeddings, calculating similarity scores, and implementing clustering algorithms for data analysis. Norms and inner products are used in regularization techniques and loss functions to optimize model performance.
+    * <mark>LLM Relevance:</mark> Metric spaces are crucial for measuring distances between word embeddings, calculating similarity scores, and implementing clustering algorithms for data analysis. Norms and inner products are used in regularization techniques and loss functions to optimize model performance.
 
 5.  **Abstract Algebra (generalizing structures further):**
     * Modules: Generalizations of vector spaces over rings.
     * Fields Extensions: Creating larger fields from smaller ones.
     * Galois Theory: Connecting field extensions to group theory.
-    * ==LLM Relevance:== Abstract algebra provides theoretical underpinnings for advanced algorithms and cryptographic methods, which may be relevant for secure LLM applications and data privacy.
+    * <mark>LLM Relevance:</mark> Abstract algebra provides theoretical underpinnings for advanced algorithms and cryptographic methods, which may be relevant for secure LLM applications and data privacy.
 
 6.  **Advanced Topics (building on the foundations):**
     * Representation Theory: Studying how groups act on vector spaces.
     * Algebraic Geometry: Using algebraic techniques to study geometric objects.
     * Algebraic Topology: Using algebraic tools to study topological spaces.
     * Lie algebras: Structures related to continuous symmetry.
-    * ==LLM Relevance:== These topics provide a deeper understanding of mathematical structures and their applications, which can be valuable for developing novel architectures and algorithms for LLMs.
+    * <mark>LLM Relevance:</mark> These topics provide a deeper understanding of mathematical structures and their applications, which can be valuable for developing novel architectures and algorithms for LLMs.
 
-> [!NOTE]
+{{% callout note %}}
 > * **Linear algebra** is fundamental for machine learning and LLMs. Vectors and matrices are used to represent data and transformations.
 > * **Metric spaces** are essential for understanding distances and similarities between data points, which is crucial for clustering and classification algorithms.
 > * **Abstract algebra** provides the theoretical foundation for many advanced algorithms and cryptographic techniques.
+
+{{% /callout %}}
 
 [^1]: ## Sets and Operations
     In essence, "sets and operations" is the starting point for defining and exploring mathematical relationships and structures.
