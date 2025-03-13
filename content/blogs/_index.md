@@ -31,8 +31,8 @@ sections:
       sort_by: 'Date'
       sort_ascending: false
     design:
-      # Choose a listing view
-      view: card
+      # Choose a listing view: card, article-grid
+      view: article-grid
       # Choose single or dual column layout
       columns: '1'
 ---

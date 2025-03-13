@@ -63,15 +63,17 @@ permalinks:
   authors: '/author/:slug/'
 disableAliases: true
 outputs:
-  home: [HTML, RSS, headers, redirects]
+  home: [HTML, RSS, headers, redirects, backlinks]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
   quality: 80
   anchor: smart
 timeout: 600000
-taxonomies:
+taxonomies: # add classification tags to the bottom of the posts
   author: authors
+  tag: tags
+  category: categories
 markup:
   _merge: deep
   highlight:
