@@ -11,9 +11,9 @@ categories:
 tags:
   - Mathematics
   - Algebra
-  - Algebraic Structures
-  - Metric Spaces
-  - Abstract Algebra
+  - AlgebraicStructures
+  - MetricSpaces
+  - AbstractAlgebra
 ---
 
 Algebra is a branch of mathematics that uses variables, such as letters, to represent unknown quantities. It focuses on solving equations and working with algebraic expressions, allowing for the generalization of arithmetic principles. 
