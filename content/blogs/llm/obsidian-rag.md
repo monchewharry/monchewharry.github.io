@@ -3,8 +3,7 @@ title: Obsidian RAG System
 summary: Discuss the RAG system design on top of LLM for Obsidian
 date: 2025-03-12
 
-authors:
-  - admin
+authors: [admin]
 
 categories: ["LLM", "RAG", "Obsidian"]
 tags:
