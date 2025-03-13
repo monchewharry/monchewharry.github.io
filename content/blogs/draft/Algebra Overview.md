@@ -5,8 +5,8 @@ authors:
 title: Algebra Overview
 date: 2025-03-13
 summary: Brief description of the note.
-categories: []
-tags: []
+categories: ["Mathematics", "Algebra"]
+tags: ["Mathematics", "Algebra","Algebraic Structures", "Metric Spaces", "Abstract Algebra"]
 ---
 
 Algebra is a branch of mathematics that uses variables, such as letters, to represent unknown quantities. It focuses on solving equations and working with algebraic expressions, allowing for the generalization of arithmetic principles. 
