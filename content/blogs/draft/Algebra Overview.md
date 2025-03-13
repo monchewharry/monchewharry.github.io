@@ -4,7 +4,7 @@ authors:
   - admin
 title: Algebra Overview
 date: 2025-03-13
-summary: Brief description of the note.
+summary: Overview of Algebra related to LLM math essentials.
 categories: ["Mathematics", "Algebra"]
 tags: ["Mathematics", "Algebra","Algebraic Structures", "Metric Spaces", "Abstract Algebra"]
 ---
