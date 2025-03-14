@@ -12,6 +12,7 @@
       "code",
       "div",
       "em",
+      "figure",
       "footer",
       "h1",
       "h2",
@@ -46,8 +47,14 @@
       "style",
       "sup",
       "svg",
+      "table",
+      "tbody",
+      "td",
+      "th",
+      "thead",
       "time",
       "title",
+      "tr",
       "ul"
     ],
     "classes": [
@@ -456,8 +463,16 @@
       "z-30"
     ],
     "ids": [
+      "-comparison-of-convergences",
+      "-summary-of-convergence-types-in-mathematics",
+      "1--pointwise-convergence",
+      "2--weak-convergence",
+      "3--strong-convergence",
+      "4--uniform-convergence",
       "algebraic-structures",
+      "applications",
       "automation--integration",
+      "challenges",
       "deviconPython0",
       "deviconPython1",
       "deviconPython2",
@@ -465,11 +480,14 @@
       "fn:1",
       "fn:2",
       "fn:3",
+      "fn:4",
       "fnref:1",
       "fnref:2",
       "fnref:3",
+      "fnref:4",
       "folder-structure",
       "hide-button",
+      "key-components",
       "linear-structure",
       "md-management",
       "metadata-yaml-frontmatter",
@@ -499,7 +517,9 @@
       "show-button",
       "site-header",
       "sun",
-      "top"
+      "tensors-multi-dimensional-arrays",
+      "top",
+      "types-of-gradient-descent"
     ]
   }
 }

@@ -34,14 +34,15 @@ Algebra is about building abstract structures from sets and operations. It moves
         * Examples: Rational numbers, real numbers, complex numbers.
     * <mark>LLM Relevance:</mark> Understanding these structures provides a foundation for more complex mathematical models used in LLMs, such as those involving group theory for symmetry detection.
 
-3.  **Linear Algebra (focusing on linear structures[^3]):**
+3. **Linear Algebra (focusing on linear structures[^3]):**
     * Vectors: Objects that can be added and scaled.
     * vector space (Linear Space) is algebraic structure that consists of sets of vectors with operations satisfying certain axioms.
         * Key Concepts: Linear combinations, linear independence, basis, dimension.
     * **Linear Transformations:** Functions between vector spaces that preserve linear structure.
     * **Matrices:** Representations of linear transformations.
     * **Eigenvalues and Eigenvectors:** Special vectors and scalars related to linear transformations.
-    * <mark>LLM Relevance:</mark> Linear algebra is the backbone of LLMs. Vectors represent words, embeddings, and hidden states. Matrices represent weight matrices in neural networks. Linear transformations model the operations of neural network layers. Eigenvalues and eigenvectors help analyze the stability and properties of these transformations.
+    * **Tensors: Multi-Dimensional Arrays:** Generalization of vectors and matrices to an arbitrary number of dimensions.[^4]
+    * <mark>LLM Relevance:</mark> Linear algebra is the backbone of LLMs. Vectors represent words, embeddings, and hidden states. Matrices represent weight matrices in neural networks. Linear transformations model the operations of neural network layers. Eigenvalues and eigenvectors help analyze the stability and properties of these transformations. Tensors are the fundamental data structure for representing and manipulating the high-dimensional data processed by LLMs.
 
 4.  **Metric Spaces (adding distance):**
     * [[Metrics]] A function defining a distance between elements of a set.
@@ -169,3 +170,12 @@ Algebra is about building abstract structures from sets and operations. It moves
 	    * In geometric terms, "linear" often implies "straight." Linear equations produce straight lines, and linear transformations preserve this straightness.
 	* **Linear Transformations:**
 	    * These are functions that map vectors to vectors while maintaining the properties of linearity. They play a crucial role in understanding how linear structures behave.
+
+[^4]: ## Tensors: Multi-Dimensional Arrays
+	
+	Tensor is generalization of vectors and matrices to an arbitrary number of dimensions.
+	* A scalar is a 0-dimensional tensor, a vector is a 1-dimensional tensor, and a matrix is a 2-dimensional tensor.
+	* Tensors are fundamental for representing and manipulating data in machine learning, particularly in deep learning.
+	* Operations on tensors include addition, multiplication (e.g., dot product, tensor product), reshaping, and slicing.
+	* The "rank" or "order" of a tensor refers to the number of its dimensions.
+	* **LLM Relevance:** Tensors are crucial for representing the weights, biases, and activations of neural networks in LLMs. They allow for efficient computation and storage of complex, multi-dimensional data. For example, word embeddings can be represented as tensors, and the hidden states of transformer models are also tensors. Tensor operations are the primary computations performed by LLMs during training and inference.
