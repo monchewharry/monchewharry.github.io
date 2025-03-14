@@ -6,9 +6,8 @@ title: Gradient Descent
 date: 2025-03-14
 summary: Overview of Gradient Descent related to LLM math essentials.
 tags:
-  - Mathematics
   - Optimization
-  - MachineLearning
+  - Algorithm
 ---
 
 * **Objective:**
