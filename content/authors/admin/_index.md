@@ -92,11 +92,11 @@ skills:
         icon: devicon/swift  
       - name: PyTorch
         description: ''
-        percent: 40
+        percent: 80
         icon: devicon/pytorch
       - name: RStudio
         description: ''
-        percent: 100
+        percent: 50
         icon: devicon/rstudio
   - name: Hobbies
     color: '#eeac02'
