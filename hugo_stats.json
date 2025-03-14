@@ -285,6 +285,7 @@
       "md:px-12",
       "me-2",
       "me-2.5",
+      "mermaid",
       "min-h-[calc(100vh-var(--navbar-height))]",
       "min-h-screen",
       "min-w-0",
