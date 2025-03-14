@@ -4,7 +4,11 @@ authors:
   - admin
 title: Gradient Descent
 date: 2025-03-14
-summary: Brief description of the note.
+summary: Overview of Gradient Descent related to LLM math essentials.
+categories:
+  - Mathematics
+  - Optimization
+  - MachineLearning
 ---
 
 * **Objective:**
