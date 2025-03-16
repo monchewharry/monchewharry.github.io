@@ -3,7 +3,7 @@ draft: false
 authors:
   - admin
 title: Analysis Overview
-date: 2025-03-13
+date: 2025-03-16
 summary: Overview of Analysis related to LLM math essentials.
 categories:
   - Mathematics
@@ -31,7 +31,7 @@ Instead of focusing on discrete operations and structures like algebra (Algebra 
     * It allows us to understand how a function is changing at any given point.
     * Applications include optimization, velocity, and acceleration.
     * <mark>LLM Relevance:</mark> Backpropagation, the core algorithm for training neural networks, heavily relies on differentiation to compute gradients and update model weights.
-* **Integration:**
+* **Integration (Riemann integration):**
     * Integration is the process of finding the "integral" of a function, which can be interpreted as the area under its curve.
     * It's the inverse operation of differentiation.
     * Applications include calculating areas, volumes, and probabilities.
@@ -42,7 +42,7 @@ Instead of focusing on discrete operations and structures like algebra (Algebra 
     * These concepts are essential for approximating functions and understanding infinite processes.
     * <mark>LLM Relevance:</mark> Recurrent neural networks (RNNs) and Transformers process sequential data, and understanding the convergence of these processes is crucial for model stability.
 * **Real and Complex Analysis:**
-    * Real analysis focuses on the properties of real numbers and real-valued functions.
+    * Real analysis focuses on the properties of real numbers and real-valued functions. Branches like [[Measure Theory]] provides the basis for [[Lebesgue integration]], a powerful generalization of [[Riemann integration]].
     * Complex analysis extends these concepts to complex numbers and complex-valued functions.
     * <mark>LLM Relevance:</mark> Complex analysis can be used to analyze the behavior of certain types of neural networks and signal processing techniques used in LLMs.
 * **Functions of Real Variables, and Functions of Complex Variables:**
