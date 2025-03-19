@@ -1,11 +1,10 @@
 ---
-draft: true
+draft: false
 authors:
   - admin
 title: Algebra Overview
 date: 2025-03-19
-summary: Comprehensive overview of algebraic structures, linear spaces, and
-  tensors in mathematics and their relevance to Linear Learning Machines (LLMs).
+summary: Comprehensive overview of algebraic structures, linear spaces, and tensors in mathematics and their relevance to Linear Learning Machines (LLMs).
 categories: []
 tags:
   - Mathematics
