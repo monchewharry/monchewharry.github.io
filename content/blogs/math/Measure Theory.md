@@ -3,10 +3,13 @@ draft: false
 authors:
   - admin
 title: Measure Theory
-date: 2025-03-16
-summary: Overview of measure theory with respect to Probability and Analysis.
-categories: [Mathematics, Probability, Analysis]
-tags: [Mathematics, Probability, Analysis]
+date: 2025-03-19
+summary: About measure Theory, a branch of real analysis that provides a
+  rigorous foundation for concepts like length, area, volume, and probability.
+categories: []
+tags:
+  - Mathematics
+  - Probability
 ---
 
 Measure theory (a branch of real analysis) provides a rigorous foundation for concepts like length, area, volume, and probability. It generalizes the idea of "size" to a wide range of sets, including those that are too complex to be handled by traditional geometric methods.
@@ -15,14 +18,14 @@ Measure theory (a branch of real analysis) provides a rigorous foundation for co
 
 * **Generalizing Length, Area, and Volume:** Measure theory extends the intuitive notions of length, area, and volume to more abstract sets. This is crucial for dealing with sets that are not simple geometric shapes.
 * **Rigorous Foundation for Integration:** It provides the basis for [[Lebesgue integration]], a powerful generalization of [[Riemann integration]]. Lebesgue integration can handle a wider class of functions and provides stronger convergence theorems.
-* **Probability Theory:** Measure theory is the fundamental framework for modern probability theory. It allows for the rigorous definition of probability spaces and random variables.
+* **Probability Theory:** Measure theory is the fundamental framework for modern probability theory. It allows for the rigorous definition of [[Probability Space]] and random variables.
 * **Analysis:** It plays a crucial role in various areas of analysis, including functional analysis, harmonic analysis, and partial differential equations.
 
 ## Framework
 
-1.  **Sets and σ-algebras:**
+1.  **Sets and σ-algebras (Set Theory):**
     * Measure theory starts with a set X, which can be any collection of objects.
-    * A σ-algebra (sigma-algebra) on X is a collection of subsets of X that is closed under complements and countable unions. These subsets are called <mark>measurable sets</mark>.
+    * A [[Sigma algebra]] on X is a collection of subsets of X that is closed under complements and countable unions. These subsets are called <mark>measurable sets</mark>.
     * The σ-algebra represents the collection of sets for which we can define a "size" or "measure."
 2.  **Measures:**
     * A measure is a function that assigns a non-negative real number (or infinity) to each measurable set.

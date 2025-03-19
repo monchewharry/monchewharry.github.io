@@ -1,0 +1,10 @@
+{
+  "name": "monchewharry.github.io",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "scripts": {
+    "import-notebooks": "academic import 'ipyNotebook/*.ipynb' content/blogs/notebook-ipynb/ --verbose",
+    "dev": "npm run import-notebooks && hugo server -D"
+  },
+  "private": true
+}

@@ -3,8 +3,10 @@ draft: false
 authors:
   - admin
 title: Gradient Descent
-date: 2025-03-14
-summary: Overview of Gradient Descent related to machine learning math essentials.
+date: 2025-03-19
+summary: A fundamental algorithm in Machine Learning used to minimize functions
+  and optimize models.
+categories: Math
 tags:
   - Optimization
   - Algorithm

@@ -1,13 +1,12 @@
 ---
-draft: false
+draft: true
 authors:
   - admin
 title: Algebra Overview
-date: 2025-03-13
-summary: Overview of Algebra related to LLM math essentials.
-categories:
-  - Mathematics
-  - Algebra
+date: 2025-03-19
+summary: Comprehensive overview of algebraic structures, linear spaces, and
+  tensors in mathematics and their relevance to Linear Learning Machines (LLMs).
+categories: []
 tags:
   - Mathematics
   - Algebra
