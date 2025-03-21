@@ -16,6 +16,8 @@ tags:
   - Vercel AI SDK
 ---
 
+![](https://cdn.openai.com/API/docs/images/function-calling-diagram-steps.png)
+
 ## Design and Workflow
 
 Tool/function calling enables LLMs to extend their capabilities by interacting with external systems. This allows them to perform actions beyond text generation, such as executing code, retrieving data, or triggering specific functions.
