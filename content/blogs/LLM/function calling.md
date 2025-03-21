@@ -16,7 +16,18 @@ tags:
   - Vercel AI SDK
 ---
 
-![](https://cdn.openai.com/API/docs/images/function-calling-diagram-steps.png)
+```mermaid
+sequenceDiagram
+    participant Developer
+    participant Model
+
+    Developer->>Model: 1. Tool Definitions + Messages<br>get_weather(location)<br>What's the weather in Paris?
+    Model->>Developer: 2. Tool Calls<br>get_weather("paris")
+    Developer->>Developer: 3. Execute Function Code<br>get_weather("paris")<br>↓<br>{"temperature": 14}
+    Developer->>Model: 4. Results<br>All Prior Messages<br>{"temperature": 14}
+    Model->>Developer: 5. Final Response<br>It's currently 14°C in Paris.
+```
+[see the image version from OpenAI](https://cdn.openai.com/API/docs/images/function-calling-diagram-steps.png)
 
 ## Design and Workflow
 
