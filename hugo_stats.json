@@ -466,13 +466,17 @@
       "4-vercel-ai-sdk",
       "algebraic-structures",
       "applications",
+      "architecture",
       "challenges",
+      "common-mcp-servers",
+      "data-storage-process",
       "data-type",
       "design-and-workflow",
       "deviconPython0",
       "deviconPython1",
       "deviconPython2",
       "embedding-storage",
+      "examples",
       "flows",
       "fn:1",
       "fn:2",
@@ -502,6 +506,7 @@
       "purpose",
       "python",
       "python-1",
+      "readingwriting",
       "rest-api",
       "search",
       "search_toggle",
@@ -523,7 +528,9 @@
       "sun",
       "tensors-multi-dimensional-arrays",
       "top",
-      "types-of-gradient-descent"
+      "transports",
+      "types-of-gradient-descent",
+      "windsurf-mcp-setup"
     ]
   }
 }
