@@ -5,7 +5,7 @@ authors:
 title: HDFS
 date: 2025-03-25
 summary: Overview of Hadoop Distributed File System (HDFS).
-categories: computing
+categories: [Programming]
 tags: [Hadoop]
 ---
 

@@ -5,7 +5,7 @@ authors:
 title: MCP
 date: 2025-03-25
 summary: MCP is a standard protocol for LLMs to interact with external data sources and tools.
-categories: Programming
+categories: [LLM]
 tags:
   - LLM
   - function calling

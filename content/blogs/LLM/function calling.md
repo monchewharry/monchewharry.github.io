@@ -6,7 +6,7 @@ title: Function Calling in LLMs
 date: 2025-03-21
 summary: LLMs can extend their capabilities by interacting with external systems
   through tool/function calling. Examples like OpenAI, Ollama and Vercel AI SDK.
-categories: []
+categories: [LLM]
 tags:
   - LLM
   - function calling

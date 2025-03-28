@@ -6,7 +6,7 @@ title: Measure Theory
 date: 2025-03-19
 summary: About measure Theory, a branch of real analysis that provides a
   rigorous foundation for concepts like length, area, volume, and probability.
-categories: []
+categories: [Mathematics]
 tags:
   - Mathematics
   - Probability

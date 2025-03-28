@@ -6,6 +6,7 @@ title: Text embedding
 date: 2025-03-14
 summary: Overview of text embedding.
 tags: [NLP,LLM]
+categories: [LLM]
 ---
 
 Text embeddings are a powerful tool for representing meaning in a way that machines can understand. They bridge the gap between human language and mathematical representations, enabling a wide range of NLP applications.

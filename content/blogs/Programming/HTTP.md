@@ -5,7 +5,7 @@ authors:
 title: HTTP
 date: 2025-03-20
 summary: HTTP a protocol for fetching resources over the web.
-categories: Programming
+categories: [Programming]
 tags:
   - Web
 ---

@@ -6,7 +6,7 @@ title: Analysis Overview
 date: 2025-03-19
 summary: About analysis in mathematics, specifically its core concepts and
   relevance to Large Language Models (LLMs).
-categories: []
+categories: [Mathematics]
 tags:
   - Mathematics
   - Analysis

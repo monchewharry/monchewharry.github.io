@@ -6,7 +6,7 @@ title: Gradient Descent
 date: 2025-03-19
 summary: A fundamental algorithm in Machine Learning used to minimize functions
   and optimize models.
-categories: Math
+categories: [Mathematics]
 tags:
   - Optimization
   - Algorithm
