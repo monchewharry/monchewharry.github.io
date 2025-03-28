@@ -4,7 +4,7 @@
   "description": "Personal website",
   "scripts": {
     "import-notebooks": "academic import 'ipyNotebook/*.ipynb' content/blogs/notebook-ipynb/ --verbose",
-    "dev": "npm run import-notebooks && hugo server -D"
+    "dev": "npm run import-notebooks && npx pagefind --site public && hugo server -D"
   },
   "private": true
 }
