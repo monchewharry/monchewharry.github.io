@@ -1,0 +1,255 @@
+{{ define "main" }}
+<div class="container">
+  <!-- Top Bar (former sidebar) -->
+  <div class="top-bar mb-4">
+    <div class="d-flex flex-wrap justify-content-between align-items-center">
+      <div class="top-section">
+        <h4 class="top-title">Categories</h4>
+        <div class="tags-cloud">
+          {{ range .Site.Taxonomies.categories }}
+          <a href="{{ .Page.RelPermalink }}" class="tag-item">
+            {{ .Page.Title }}
+            <span class="tag-count">({{ .Count }})</span>
+          </a>
+          {{ end }}
+        </div>
+      </div>
+
+      <div class="top-section">
+        <h4 class="top-title">Tags</h4>
+        <div class="tags-cloud">
+          {{ range .Site.Taxonomies.tags }}
+          <a href="{{ .Page.RelPermalink }}" class="tag-item">
+            {{ .Page.Title }}
+            <span class="tag-count">({{ .Count }})</span>
+          </a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {{ $items := where site.RegularPages "Type" "blogs" }}
+  <div class="post-grid">
+    {{ range $items }}
+    <article class="post-card">
+      <div class="post-content">
+        {{ with .Params.categories }}
+        {{ $category := index . 0 }}
+        {{ with $.Site.GetPage (printf "/categories/%s" $category) }}
+        <a href="{{ .RelPermalink }}" class="post-category">{{ .Title }}</a>
+        {{ end }}
+        {{ end }}
+        <h2 class="post-title">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h2>
+        <div class="post-summary">{{ .Summary }}</div>
+        <div class="post-meta">
+          <time datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+        </div>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+
+  <style>
+    .container {
+      max-width: 1200px;
+      padding: 0 1rem;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #212529;
+      margin-bottom: 2rem;
+    }
+
+    .post-grid {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      justify-content: center;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .post-card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+      height: 100%;
+    }
+
+    .post-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .post-content {
+      padding: 1.5rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .post-category {
+      display: inline-block;
+      color: #0d6efd;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      text-decoration: none;
+      margin-bottom: 0.75rem;
+    }
+
+    .post-category:hover {
+      color: #0b5ed7;
+      text-decoration: none;
+    }
+
+    .post-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin: 0 0 0.75rem;
+      line-height: 1.4;
+    }
+
+    .post-title a {
+      color: #212529;
+      text-decoration: none;
+    }
+
+    .post-title a:hover {
+      color: #0d6efd;
+    }
+
+    .post-summary {
+      color: #6c757d;
+      font-size: 0.875rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+      flex-grow: 1;
+    }
+
+    .post-meta {
+      font-size: 0.75rem;
+      color: #adb5bd;
+      margin-top: auto;
+    }
+
+    @media (max-width: 768px) {
+      .post-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .sidebar-section {
+      margin-bottom: 2rem;
+    }
+
+    .sidebar-title {
+      color: #212529;
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+
+
+    .tags-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .tag-item {
+      color: #495057;
+      text-decoration: none;
+      font-size: 0.875rem;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    .tag-item:hover {
+      color: #0d6efd;
+      background: rgba(13, 110, 253, 0.1);
+      text-decoration: none;
+    }
+
+    .tag-count {
+      color: #6c757d;
+      margin-left: 0.25rem;
+    }
+
+    @media (min-width: 768px) {
+      .row.g-5 {
+        --bs-gutter-x: 3rem;
+      }
+    }
+  </style>
+</div>
+
+<style>
+  /* Top bar styles */
+  .top-bar {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .top-section {
+    margin: 0.5rem 1rem;
+  }
+
+  .top-title {
+    color: #212529;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+
+  .tags-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .tag-item {
+    color: #495057;
+    text-decoration: none;
+    font-size: 0.875rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.05);
+    transition: all 0.2s;
+  }
+
+  .tag-item:hover {
+    color: #0d6efd;
+    background: rgba(13, 110, 253, 0.1);
+    text-decoration: none;
+  }
+
+  .tag-count {
+    color: #6c757d;
+    margin-left: 0.25rem;
+  }
+
+  @media (max-width: 768px) {
+    .top-bar .d-flex {
+      flex-direction: column;
+    }
+
+    .top-section {
+      margin: 0.5rem 0;
+    }
+  }
+</style>
+{{ end }}

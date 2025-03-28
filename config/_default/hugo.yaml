@@ -29,12 +29,6 @@ cascade:
     header:
       navbar:
         enable: true
-  # Blog section options
-  - _target:
-      path: /blogs/*
-      kind: section
-    # Set the listing view
-    view: card
 
 ############################
 ## LANGUAGE
@@ -44,6 +38,15 @@ defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
+
+############################
+## TAXONOMIES
+############################
+
+taxonomies:
+  tag: tags
+  category: categories
+  author: authors
 
 ############################
 ## ADVANCED
@@ -70,10 +73,6 @@ imaging:
   quality: 80
   anchor: smart
 timeout: 600000
-taxonomies: # add classification tags to the bottom of the posts
-  author: authors
-  tag: tags
-  category: categories
 markup:
   _merge: deep
   highlight:
