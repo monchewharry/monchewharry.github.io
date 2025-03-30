@@ -18,7 +18,7 @@ sections:
         icon: rocket-launch
       secondary_action:
         text: Posts
-        url: /blogs
+        url: /post
       # announcement:
       #   text: "Announcing the release of version 1."
       #   link:

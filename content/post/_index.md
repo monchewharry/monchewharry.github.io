@@ -1,6 +1,6 @@
 ---
 title: ""
-type: blogs # This tells Hugo to use templates from layouts/blogs/
+type: post # This tells Hugo to use templates from layouts/post/
 
 # Optional header image (relative to `static` folder).
 header:

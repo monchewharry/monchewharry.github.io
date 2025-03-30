@@ -29,7 +29,7 @@
     </div>
   </div>
 
-  {{ $items := where site.RegularPages "Type" "blogs" }}
+  {{ $items := where site.RegularPages "Type" "post" }}
   <div class="post-grid">
     {{ range $items }}
     <article class="post-card">

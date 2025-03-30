@@ -11,7 +11,7 @@ main:
     url: resume/
     weight: 10
   - name: Blog
-    url: blogs/
+    url: post/
     weight: 20
   # - name: Uses
   #   url: uses/

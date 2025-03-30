@@ -13,7 +13,7 @@ tags:
 ---
 
 
-Anthropic's Model Context Protocol (MCP) is a significant development aimed at standardizing how AI models, particularly large language models (LLMs), interact with external data sources and tools. Intuitively, MCP provide a standardized [function calling]({{< relref "/blogs/LLM/function calling" >}}) protocol across different LLM providers.
+Anthropic's Model Context Protocol (MCP) is a significant development aimed at standardizing how AI models, particularly large language models (LLMs), interact with external data sources and tools. Intuitively, MCP provide a standardized [function calling]({{< relref "/post/LLM/function calling" >}}) protocol across different LLM providers.
 
 ## Architecture
 
@@ -71,13 +71,13 @@ All transports use JSON-RPC 2.0 to exchange messages.
 ```
 - Transport types:
 	- The `STDIO` transport method launches an MCP server as a subprocess and communicates with it through standard input/output streams for local execuation.
-	- `SSE` transport enables server-to-client streaming with [HTTP]({{< relref "/blogs/Programming/HTTP" >}}) POST requests for client-to-server communication.
+	- `SSE` transport enables server-to-client streaming with [HTTP]({{< relref "/post/Programming/HTTP" >}}) POST requests for client-to-server communication.
 	- Custom: Any transport implementation just needs to conform to the Transport interface.
 
 ## MCP and Prompt
 
  Use [cloudflare](https://www.cloudflare.com/learning/what-is-cloudflare/) to log the [[HTTP]] messages between VSCode-Cline client and LLM provider DeepSeek V3:
-- The sent system prompts provide the information of MCP servers and [tool]({{< relref "/blogs/LLM/function calling" >}})'s configurations.
+- The sent system prompts provide the information of MCP servers and [tool]({{< relref "/post/LLM/function calling" >}})'s configurations.
 	 1. `use_mcp_tool` 
 	 2. `access_mcp_resource`
 	 3. `Available Tools`: each MCP server provides a list of tools
@@ -143,7 +143,7 @@ The LLM model (DeepSeek) will then return an assistant message as follows to ind
   }
 ```
 
->Given the above returned assistant message, the application will build the MCP request to MCP server, run the corresponding tools, and construct the secound round messages sent to LLM based on MCP responses. The workflow is similar to the [function calling]({{< relref "/blogs/LLM/function calling" >}}).
+>Given the above returned assistant message, the application will build the MCP request to MCP server, run the corresponding tools, and construct the secound round messages sent to LLM based on MCP responses. The workflow is similar to the [function calling]({{< relref "/post/LLM/function calling" >}}).
 
 ## Implementation
 

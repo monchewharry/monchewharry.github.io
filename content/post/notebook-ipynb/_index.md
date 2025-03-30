@@ -1,7 +1,7 @@
 ---
 cascade:
   - _target:
-      path: /blogs/notebook-ipynb/**
+      path: /post/notebook-ipynb/**
       kind: page
     draft: true
     tags:
