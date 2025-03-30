@@ -165,7 +165,7 @@ The LLM model (DeepSeek) will then return an assistant message as follows to ind
 ```
 
 {{< callout note >}}
-> The WindSurf's LLM (claude 3.5) will determine to use this MCP server named "github", then call the tool 'github / search_repositories' to run a node js program (`npx` command) to find the info on github.
+The WindSurf's LLM (claude 3.5) will determine to use this MCP server named "github", then call the tool 'github / search_repositories' to run a node js program (`npx` command) to find the info on github.
 
 {{< /callout >}}
 
