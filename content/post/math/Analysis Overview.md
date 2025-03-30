@@ -52,7 +52,7 @@ Instead of focusing on discrete operations and structures like algebra (Algebra 
     * Topology, which builds upon metric spaces, further generalizes these concepts.
     * <mark>LLM Relevance:</mark> Metric spaces are fundamental for understanding distance metrics used in clustering and similarity search, crucial for tasks like retrieval-augmented generation. Topology is used in advanced machine learning applications.
 
-{{% callout note %}}
+{{< callout note >}}
 > * **Rigorous Foundations:**
 >     * Analysis emphasizes precise definitions and proofs, often using the epsilon-delta definition of limits.
 >     * It aims to provide a solid logical foundation for calculus and related areas.
@@ -61,7 +61,7 @@ Instead of focusing on discrete operations and structures like algebra (Algebra 
 > * **Emphasis on Limits and Convergence:**
 >     * The concept of a limit is central to analysis, providing the basis for understanding continuity, differentiation, and integration.
 
-{{% /callout %}}
+{{< /callout >}}
 
 [^1]: $\epsilon-\delta$ Definition: For every ε > 0, there exists a δ > 0 such that if 0 < |x - c| < δ, then |f(x) - L| < ε.
 

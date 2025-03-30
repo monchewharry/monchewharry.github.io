@@ -64,12 +64,12 @@ Algebra is about building abstract structures from sets and operations. It moves
     * Lie algebras: Structures related to continuous symmetry.
     * <mark>LLM Relevance:</mark> These topics provide a deeper understanding of mathematical structures and their applications, which can be valuable for developing novel architectures and algorithms for LLMs.
 
-{{% callout note %}}
+{{< callout note >}}
 > * **Linear algebra** is fundamental for machine learning and LLMs. Vectors and matrices are used to represent data and transformations.
 > * **Metric spaces** are essential for understanding distances and similarities between data points, which is crucial for clustering and classification algorithms.
 > * **Abstract algebra** provides the theoretical foundation for many advanced algorithms and cryptographic techniques.
 
-{{% /callout %}}
+{{< /callout >}}
 
 [^1]: ## Sets and Operations
     In essence, "sets and operations" is the starting point for defining and exploring mathematical relationships and structures.

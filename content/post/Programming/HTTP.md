@@ -35,11 +35,11 @@ Clients and servers communicate by exchanging individual HTTP messages (as oppos
 	- request methods `POST`, `PUT`
 	- response resource: HTML, JSON, image, or error message
 
-{{% callout note %}}
+{{< callout note >}}
 > - The HTTP protocol defines the structure of the request body but does not specify how frameworks should expose it.
 > 	- Using `request.data`, `request.json`, `req.body` to access the request body is a convention rather than a part of the HTTP protocol itself. This convention is commonly found in web frameworks and libraries (e.g., Flask, Django, Express.js) to simplify access to the data sent in the body of an HTTP request.
 
-{{% /callout %}}
+{{< /callout >}}
 
 ## data type
 All HTTP messages (requests and responses) are ultimately transmitted as [[binary data]] over the network, because at the lowest level, all data transmitted over networks (e.g., TCP/IP (TCP)) is sent as binary data (sequences of 0s and 1s).

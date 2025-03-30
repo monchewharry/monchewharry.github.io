@@ -94,7 +94,7 @@ print(f"Cosine similarity: {similarity[0][0]}")
 
 ## Embedding storage
 
-{{% callout note %}}
+{{< callout note >}}
 > **Key Considerations:**
 > 
 > * **Scale:** The volume of embeddings and the required query performance.
@@ -102,7 +102,7 @@ print(f"Cosine similarity: {similarity[0][0]}")
 > * **Metadata Storage:** The ability to store and query metadata associated with embeddings.
 > * **Integration:** How well the storage solution integrates with existing systems.
 
-{{% /callout %}}
+{{< /callout >}}
 
 **1. Vector Databases:**
 

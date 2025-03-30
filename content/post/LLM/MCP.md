@@ -11,8 +11,6 @@ tags:
   - function calling
   - tool
 ---
-
-
 Anthropic's Model Context Protocol (MCP) is a significant development aimed at standardizing how AI models, particularly large language models (LLMs), interact with external data sources and tools. Intuitively, MCP provide a standardized [function calling]({{< relref "/post/LLM/function calling" >}}) protocol across different LLM providers.
 
 ## Architecture
@@ -166,10 +164,10 @@ The LLM model (DeepSeek) will then return an assistant message as follows to ind
 }
 ```
 
-{{% callout note %}}
+{{< callout note >}}
 > The WindSurf's LLM (claude 3.5) will determine to use this MCP server named "github", then call the tool 'github / search_repositories' to run a node js program (`npx` command) to find the info on github.
 
-{{% /callout %}}
+{{< /callout >}}
 
 The nodejs program's actual run:
 ```bash
