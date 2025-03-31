@@ -13,6 +13,8 @@ categories: [LLM]
 tags:
   - LLM
   - Model Evaluation
+
+weight: 1
 ---  
 
 A methodology framework to evaluate a Large Language Model (LLM) involves a structured approach that combines well-defined tasks, metrics, datasets, and evaluation protocols to assess the model’s capabilities comprehensively. Below is a general framework, adaptable based on the specific goals (e.g., research, deployment, or domain-specific use):
